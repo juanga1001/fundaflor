@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "public": "public",
-    "site": "fundaflor",
+    "public": "build",
+    "hosting": "fundaflor",
     "ignore": [
       "firebase.json",
       "**/.*",
