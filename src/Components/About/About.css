@@ -1,0 +1,51 @@
+.About-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    padding: 20px 10%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.About-info{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 300px;
+    color: #494949;
+}
+
+.About-info > button {
+    background-color: #FA4298;
+    color: #FFF;
+}
+
+.About-container > img {
+    width: 50%;
+    max-width: 300px;
+    flex:1 1 200px;
+}
+
+.About-award > img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 765px) {
+    .About-container{
+        justify-content: space-evenly;
+    }
+
+    .About-container > img {
+        display: none;
+    }
+
+    .About-info{
+        margin-top: -40px;
+        margin-bottom: 20px;
+        max-width: 100%;
+
+    }
+}

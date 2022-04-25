@@ -1,0 +1,68 @@
+.Join{
+    margin: -50px 0 -100px 0;
+    height: auto;
+    text-align: center;
+}
+
+.Join > h1 {
+    background: linear-gradient(180deg, rgba(250,66,152,1) 0%, rgba(255,255,255,0) 100%);
+    font-size: 6vw;
+    width: 100%;
+    padding-top: 40px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    text-align: center;
+    color: #FBABD1;
+}
+
+.Join-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 10% 0 10%;
+}
+
+.MuiCard-root{
+    flex: 1 1 280px;
+    box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.2) !important;
+    border-radius: 10px !important;
+    text-align: left;
+    position: relative;
+    padding-bottom: 30px;
+    transform: scale(1.001);
+    z-index: 9;
+  }
+
+  .MuiCardContent-root > h3{
+      font-size: 1.4rem !important;
+      color: #494949 !important;
+  }
+
+  .MuiCardContent-root > p{
+    font-size: 1.2rem !important;
+    color: #494949 !important;
+}
+  
+  .MuiCardActions-root > p > a{
+    cursor: pointer;
+    color: #FA4298 !important;
+    font-size: 0.9rem !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none;
+    position: absolute;
+    top: 450px;
+  }
+  
+  .MuiCardActions-root:hover {
+    font-weight: 600;
+  }
+
+@media only screen and (max-width: 680px) {
+    .Join > h1 {
+        font-size: 10vw;
+        line-height: 8vw;
+    }
+}

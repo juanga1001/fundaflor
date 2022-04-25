@@ -1,0 +1,118 @@
+.Navbar{
+    background-color: #FA4298;
+    height: 60px;
+    width: 100%;
+    overflow: visible;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-menu {
+    display: none;
+  }
+  
+  .Navbar {
+    display: flex;
+    height: 60px;
+    overflow: visible;
+    z-index: 999;
+  }
+  
+  .Navbar > img {
+    margin-right: auto;
+    height: 140px;
+    background-color: #ffffff;
+    padding: 20px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.2);
+  }
+  
+  .Navbar > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    list-style: none;
+    margin-left: 10%;
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding-top: 30px;
+  }
+  
+  .Navbar > ul > li {
+    cursor: pointer;
+    padding-bottom: 20px;
+  }
+  
+  .Navbar > ul > li:hover {
+    font-weight: bold;
+  }
+  
+  .Navbar > ul > li .link-route:hover {
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .Navbar {
+      align-items: flex-start;
+      z-index: 99;
+    }
+  
+    .Navbar > ul {
+      display: none;
+    }
+  
+    .mobile-menu-icon{
+        color: #ffffff;
+    }
+  
+    .mobile-menu {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+  
+    .mobile-menu > ul {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+      justify-content: space-between;
+      flex-shrink: 1;
+      list-style: none;
+      width: 100%;
+      height: auto;
+      margin-right: 10px;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      color: #FA4298;
+      filter: drop-shadow(0 0 0.3rem rgb(198, 198, 198));
+    }
+  
+    .mobile-menu > ul > li {
+      cursor: pointer;
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+  
+    .mobile-menu > ul > li:hover {
+      font-weight: bolder;
+    }
+  
+    .mobile-menu {
+      display: flex;
+    }
+  
+    .mobile-menu-icon {
+      cursor: pointer;
+      z-index: 999;
+      transform: scale(2);
+    }
+}
+
+
+
+.btn-navbar{
+    margin-top: -10px;
+}
