@@ -3,6 +3,7 @@ import { scroller } from "react-scroll";
 import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
+import CarreraAbout from "./Components/Carrera/CarreraAbout";
 import About from "./Components/About/About";
 import Work from "./Components/Work/Work";
 import Join from "./Components/Join/Join";
@@ -26,6 +27,7 @@ function App() {
       </nav>
       <main>
         <Hero handleScroll={scrollToSection} />
+        <CarreraAbout handleScroll={scrollToSection} />
         <About handleScroll={scrollToSection} />
         <Work handleScroll={scrollToSection} />
         <Join handleScroll={scrollToSection} />

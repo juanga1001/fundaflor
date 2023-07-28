@@ -1,0 +1,49 @@
+.Error-carrera{
+	width: 100%;
+    background-color: #ffffff;
+    color: #fff;
+	padding-top: 40px;
+	margin-bottom: 50px;
+}
+
+.Error-carreara-container{
+	background-color: #011A4C;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 450px;
+	max-width: 700px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	border-radius: 25px;
+	box-shadow: -10px 10px 15px rgb(158, 154, 154);
+}
+
+.Error-carrera-info{
+	flex: 1 1 300px;
+	max-width: 500px;
+}
+
+.Error-carrera-info > p {
+	margin-top: 10px;
+}
+.form-note{
+	font-size: 1rem;
+	font-weight: bolder;
+}
+
+.btn-error{
+	background-color: #FA4298;
+	color: #FFF;
+	width: 160px;
+
+	margin:  10px 0px 0px 5px;
+}
+
+.error-page-email{
+	color: #FA4298;
+	font-weight: bolder;
+}

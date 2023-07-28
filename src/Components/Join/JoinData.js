@@ -8,7 +8,7 @@ const data = [
         image:
             "https://i.postimg.cc/PxLXS0JY/join-donate-img.png",
         cta: "Quiero Donar",
-        ctaLink: "https://vaki.co/fundafloramoryvida"
+        ctaLink: "https://checkout.wompi.co/l/99L316"
     },
     {
         id: 2,

@@ -8,7 +8,7 @@ function Hero() {
           <h1>Amar es nuestra manera de servir</h1>
           <p>Fundación de apoyo y acompañamiento integral a personas con cáncer.</p>
           <a 
-              href="https://vaki.co/fundafloramoryvida"
+              href="https://checkout.wompi.co/l/99L316"
               target="_blank"
               rel="noreferrer">
               <button>DONAR</button>
