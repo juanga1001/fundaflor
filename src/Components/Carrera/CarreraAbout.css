@@ -28,6 +28,8 @@
 }
 
 .AboutCarrera-container > img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(55, 55, 55, 0.2) !important;
     width: 50%;
     max-width: 500px;
     flex:1 1 200px;
