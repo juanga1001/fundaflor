@@ -15,7 +15,7 @@ function Footer(props) {
                 <li onClick={() => props.handleScroll("Contact")}>CONTACTO</li>
                 <li className="btn-navbar">
                   <a 
-                  href="https://vaki.co/fundafloramoryvida"
+                  href="https://checkout.wompi.co/l/99L316"
                   target="_blank"
                   rel="noreferrer">
                     <button>DONAR</button>

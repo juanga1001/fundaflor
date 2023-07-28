@@ -39,10 +39,10 @@ export default function Form(props) {
       if (validEmail(formData.email)) {
         emailjs
         .sendForm(
-          "service_r68clmk",
-          "template_ubqv8gh",
+          "service_k197c1n",
+          "template_fc1junl",
           e.target,
-          "ktzfjeGE1qlrmKquL"
+          "7P9pOAEUPp7SVS8Ms"
         )
           .then(
             (result) => {
