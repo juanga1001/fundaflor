@@ -29,6 +29,18 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `Deploys`
+
+This app is deployed on firebase hosting. For launch a new change in prod run the command `firebase login` and then `firebase deploy`. 
+If this doesn't work try the following steps:
+
+npm install -g firebase-tools
+alias firebase="`npm config get prefix`/bin/firebase"
+firebase login
+firebase init (public folder —> dist) (Don’t allow GitHub deploy)(add noting:”name” to firebase.json)
+npm run build (Change firebase.json public folder —> build & delete dist folder)
+firebase deploy  
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
@@ -68,3 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
