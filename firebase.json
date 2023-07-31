@@ -1,6 +1,12 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "build", // Set the public folder where your build files are located
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html" // Redirect all requests to index.html (SPA)
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
