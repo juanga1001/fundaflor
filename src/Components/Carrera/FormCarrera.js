@@ -163,6 +163,16 @@ export default function Form({transaction}) {
               <option value="femenino">Femenino</option>
               <option value="otro">Otro</option>
         </select>
+        <label className="form-label" htmlFor="dist">Distancia:</label> 
+        <select
+              className="select-box"
+              onChange={handleChange}
+              name="dist"
+            >
+              <option value="5k">5K</option>
+              <option value="8k">8K</option>
+              <option value="11k">11K</option>
+        </select>
         <label className="form-label" htmlFor="size">Talla Camiseta:</label> 
         <select
               className="select-box"

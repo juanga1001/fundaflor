@@ -31,7 +31,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `Deploys`
 
-This app is deployed on firebase hosting. For launch a new change in prod run the command `firebase login` and then `firebase deploy`. 
+This app is deployed on firebase hosting. For launch a new change in prod run the command `npm run build`, `firebase login` and then `firebase deploy`. 
 If this doesn't work try the following steps:
 
 npm install -g firebase-tools
